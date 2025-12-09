@@ -1,0 +1,12 @@
+[package]
+name = "DEMO"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+demo_lib = { path = "demo_lib" }
+
+[workspace]
+members = [
+    "demo_lib",
+]
